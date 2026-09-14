@@ -27,13 +27,13 @@ Always learning · Always building · Always improving ✨
 <br>
 
 <p>
-<a href="#-about-me">About</a> ·
-<a href="#-tech-stack">Tech Stack</a> ·
-<a href="#-skills--github">Skills</a> ·
-<a href="#-featured-projects">Projects</a> ·
-<a href="#-github-overview">Stats</a> ·
-<a href="#-all-github-repositories">Repos</a> ·
-<a href="#-contribution-activity">Activity</a>
+<a href="#-about-me"><img src="https://img.shields.io/badge/About-FFF8E1?style=flat-square&logoColor=3B2F14" alt="About" /></a>
+<a href="#-tech-stack"><img src="https://img.shields.io/badge/Tech%20Stack-FFE082?style=flat-square&logoColor=3B2F14" alt="Tech Stack" /></a>
+<a href="#-skills--github"><img src="https://img.shields.io/badge/Skills-FFF8E1?style=flat-square&logoColor=3B2F14" alt="Skills" /></a>
+<a href="#-featured-projects"><img src="https://img.shields.io/badge/Projects-FFE082?style=flat-square&logoColor=3B2F14" alt="Projects" /></a>
+<a href="#-github-overview"><img src="https://img.shields.io/badge/Stats-FFF8E1?style=flat-square&logoColor=3B2F14" alt="Stats" /></a>
+<a href="#-all-github-repositories"><img src="https://img.shields.io/badge/Repos-FFE082?style=flat-square&logoColor=3B2F14" alt="Repos" /></a>
+<a href="#-contribution-activity"><img src="https://img.shields.io/badge/Activity-FFF8E1?style=flat-square&logoColor=3B2F14" alt="Activity" /></a>
 </p>
 
 <img src="assets/cute-stickers.svg" width="72%" alt="" />
@@ -76,7 +76,7 @@ Always learning · Always building · Always improving ✨
 </tr>
 </table>
 
-<div align="right"><a href="#readme-top">↑ back to top</a></div>
+<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -88,7 +88,7 @@ Always learning · Always building · Always improving ✨
 
 </div>
 
-<div align="right"><a href="#readme-top">↑ back to top</a></div>
+<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -121,7 +121,7 @@ Always learning · Always building · Always improving ✨
 </tr>
 </table>
 
-<div align="right"><a href="#readme-top">↑ back to top</a></div>
+<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -184,7 +184,7 @@ Always learning · Always building · Always improving ✨
 
 </details>
 
-<div align="right"><a href="#readme-top">↑ back to top</a></div>
+<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -202,7 +202,7 @@ Always learning · Always building · Always improving ✨
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Samruddhi192105&theme=default&hide_border=true&background=FFFDF5&ring=F5C542&fire=E7A900&currStreakLabel=3B2F14&currStreakNum=3B2F14&sideNums=3B2F14&sideLabels=3B2F14&dates=8A7A3E" width="520" alt="GitHub streak stats" />
 </p>
 
-<div align="right"><a href="#readme-top">↑ back to top</a></div>
+<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -224,7 +224,7 @@ Always learning · Always building · Always improving ✨
 
 </details>
 
-<div align="right"><a href="#readme-top">↑ back to top</a></div>
+<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -240,7 +240,7 @@ Always learning · Always building · Always improving ✨
 
 </div>
 
-<div align="right"><a href="#readme-top">↑ back to top</a></div>
+<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
