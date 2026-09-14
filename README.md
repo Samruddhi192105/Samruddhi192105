@@ -32,33 +32,7 @@
 
 ---
 
-## 🌼 About Me
-
-<div align="center">
-
-<img src="assets/cute-stickers.svg" width="140" alt="Cute developer stickers" />
-
-<h2>👋 Hey, I'm Samruddhi!</h2>
-
-<p>
-  <strong>💻 Computer Engineering Student</strong>
-  &nbsp; • &nbsp;
-  <strong>🚀 Full Stack Developer</strong>
-  &nbsp; • &nbsp;
-  <strong>🤖 AI/ML Enthusiast</strong>
-</p>
-
-<p>
-  I love turning ideas into <strong>useful, beautiful &amp; intelligent software</strong>.
-  <br>
-  I'm especially interested in backend development, AI systems and modern web applications.
-</p>
-
-</div>
-
-<br>
-
-### 💛 What I Do
+##  About
 
 <div align="center">
 
@@ -66,57 +40,11 @@
 <img src="https://img.shields.io/badge/⚛️%20Full%20Stack-FFD966?style=for-the-badge&labelColor=FFF8E1&color=FFD966" />
 <img src="https://img.shields.io/badge/🤖%20AI%20%26%20ML-F4B942?style=for-the-badge&labelColor=FFF8E1&color=F4B942" />
 
-<br><br>
+<br>
 
 <img src="https://img.shields.io/badge/🗄️%20Databases-E8C547?style=for-the-badge&labelColor=FFF8E1&color=E8C547" />
 <img src="https://img.shields.io/badge/🐳%20Docker-F6D365?style=for-the-badge&labelColor=FFF8E1&color=F6D365" />
 <img src="https://img.shields.io/badge/🧠%20DSA-F5C542?style=for-the-badge&labelColor=FFF8E1&color=F5C542" />
-
-</div>
-
-<br>
-
-### 🌻 My Tech Interests
-
-<div align="center">
-
-`Spring Boot` &nbsp; ✦ &nbsp;
-`React` &nbsp; ✦ &nbsp;
-`Java` &nbsp; ✦ &nbsp;
-`Python`
-
-<br>
-
-`AI Agents` &nbsp; ✦ &nbsp;
-`RAG` &nbsp; ✦ &nbsp;
-`LLMs` &nbsp; ✦ &nbsp;
-`System Design`
-
-<br>
-
-`PostgreSQL` &nbsp; ✦ &nbsp;
-`MongoDB` &nbsp; ✦ &nbsp;
-`Docker` &nbsp; ✦ &nbsp;
-`Git`
-
-</div>
-
-<br>
-
-<div align="center">
-
-### 🌱 Currently Learning
-
-<img src="https://img.shields.io/badge/AI%20Agents-F5C542?style=flat-square&logoColor=3B2F14" />
-<img src="https://img.shields.io/badge/RAG-FFD966?style=flat-square&logoColor=3B2F14" />
-<img src="https://img.shields.io/badge/System%20Design-F4B942?style=flat-square&logoColor=3B2F14" />
-<img src="https://img.shields.io/badge/CI%2FCD-E8C547?style=flat-square&logoColor=3B2F14" />
-
-<br><br>
-
-> 🌼 **Build things that solve real problems.**
-
-**Build · Break · Learn · Ship 🚀**
 
 </div>
 
@@ -393,16 +321,12 @@ Real-time **augmented-reality face filter** with face tracking and interactive e
 </tr>
 </table>
 
-###  More projects coming soon...
-
-`Build` · `Experiment` · `Learn` · `Ship`
-
 </div>
 
 ---
 
 
-## 🐝 Contribution Activity
+##  Contribution Activity
 
 <div align="center">
 
@@ -433,8 +357,18 @@ Real-time **augmented-reality face filter** with face tracking and interactive e
 
 <div align="center">
 
-`Spring Boot` · `System Design` · `Python` · `AI Agents` · `RAG` · `Docker` · `CI/CD` · `DSA`
+<img src="https://img.shields.io/badge/%20Spring%20Boot-F5C542?style=for-the-badge&logo=springboot&logoColor=3B2F14" />
+<img src="https://img.shields.io/badge/%20System%20Design-FFD966?style=for-the-badge&logoColor=3B2F14" />
+<img src="https://img.shields.io/badge/%20Python-F4B942?style=for-the-badge&logo=python&logoColor=3B2F14" />
+<img src="https://img.shields.io/badge/%20AI%20Agents-E8C547?style=for-the-badge&logoColor=3B2F14" />
 
+<br>
+<img src="https://img.shields.io/badge/%20RAG-F5C542?style=for-the-badge&logoColor=3B2F14" />
+<img src="https://img.shields.io/badge/%20Docker-FFD966?style=for-the-badge&logo=docker&logoColor=3B2F14" />
+<img src="https://img.shields.io/badge/%20CI%2FCD-F4B942?style=for-the-badge&logoColor=3B2F14" />
+<img src="https://img.shields.io/badge/%20DSA-E8C547?style=for-the-badge&logoColor=3B2F14" />
+
+<br>
 </div>
 
 ---
