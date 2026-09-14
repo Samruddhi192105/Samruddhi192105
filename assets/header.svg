@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="50%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#F5C542"/>
+    </linearGradient>
+    <path id="wave" d="M0 185 C180 145 300 215 470 175 C650 130 780 205 950 165 C1060 140 1130 155 1200 125 L1200 220 L0 220 Z"/>
+  </defs>
+  <rect width="1200" height="220" fill="url(#g)"/>
+  <use href="#wave" fill="#FFFDF5" opacity=".75"/>
+  <text x="600" y="82" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#3B2F14">Samruddhi Ghawade</text>
+  <text x="600" y="122" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3B2F14">Full Stack &amp; Backend Developer · AI/ML</text>
+  <circle cx="1080" cy="52" r="8" fill="#F5C542"/>
+  <circle cx="1110" cy="75" r="5" fill="#E7A900"/>
+  <circle cx="1145" cy="45" r="6" fill="#FFFDF5"/>
+</svg>

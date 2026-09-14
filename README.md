@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF8E1,50:FFE082,100:F5C542&height=200&section=header&text=Samruddhi%20Ghawade&fontSize=46&fontColor=3B2F14&fontAlignY=42&desc=Full%20Stack%20%26%20Backend%20Developer%20-%20AI%2FML&descAlignY=62&descSize=18&animation=fadeIn" width="100%" alt="Header banner" />
+<img src="assets/header.svg" width="100%" alt="Samruddhi Ghawade — Full Stack &amp; Backend Developer · AI/ML" />
 
 <img src="assets/samruddhi.jpg" width="180" style="border-radius:50%" alt="Samruddhi Ghawade" />
 
@@ -76,7 +76,6 @@ Always learning · Always building · Always improving ✨
 </tr>
 </table>
 
-<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -88,7 +87,6 @@ Always learning · Always building · Always improving ✨
 
 </div>
 
-<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -121,7 +119,6 @@ Always learning · Always building · Always improving ✨
 </tr>
 </table>
 
-<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -186,7 +183,6 @@ Always learning · Always building · Always improving ✨
 
 </details>
 
-<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -204,7 +200,6 @@ Always learning · Always building · Always improving ✨
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Samruddhi192105&theme=default&hide_border=true&background=FFFDF5&ring=F5C542&fire=E7A900&currStreakLabel=3B2F14&currStreakNum=3B2F14&sideNums=3B2F14&sideLabels=3B2F14&dates=8A7A3E" width="520" alt="GitHub streak stats" />
 </p>
 
-<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -228,7 +223,6 @@ Always learning · Always building · Always improving ✨
 
 </details>
 
-<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
@@ -244,7 +238,6 @@ Always learning · Always building · Always improving ✨
 
 </div>
 
-<div align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/%E2%86%91%20back%20to%20top-F5C542?style=flat-square&logoColor=3B2F14" alt="Back to top" /></a></div>
 
 ---
 
