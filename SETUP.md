@@ -1,70 +1,59 @@
-# Samruddhi192105 Profile README
+# Samruddhi192105 GitHub Profile
 
-This package is a customized implementation of the profile-README system described in the supplied guide. The guide's key setup is a public repository whose name exactly matches the GitHub username. fileciteturn0file0L64-L82
+This is the ready-to-push GitHub profile README for **Samruddhi192105**.
 
-## Create the repository
+## 1. Create the profile repository
 
-Create a **public** GitHub repository named:
+Create a **public** repository named exactly:
 
 `Samruddhi192105`
 
-## Install the local dependency
+Do not initialize it with another README.
 
-```powershell
-pip install pillow
-```
+## 2. Push this folder
 
-The guide uses Pillow for its portrait generator. fileciteturn0file0L85-L113
-
-## Generate assets
-
-From the repository root:
-
-```powershell
-python scripts/radar.py --data assets/skills.json -o assets/radar
-python scripts/radar.py --github Samruddhi192105 -o assets/radar-langs --limit 7 --curve 0.4 --exclude "Shell,Makefile,Dockerfile"
-python scripts/cards.py --user Samruddhi192105 --out assets
-```
-
-For the dot-matrix portrait, put your photo in the root as `me.jpg` and run:
-
-```powershell
-python scripts/dotify.py me.jpg -o assets/portrait --cols 100 --equalize --detail 0.5 --color
-```
-
-The guide recommends background removal, equalization, 100 columns and detail 0.5 for its portrait. fileciteturn0file0L190-L221
-
-## Replace these placeholders
-
-In `README.md`:
-
-- `YOUR_LINKEDIN`
-- `YOUR_EMAIL`
-- `YOUR_PORTFOLIO`
-- `YOUR_DENSEPOSE_REPO`
-- `YOUR_AGENT_SWARM_REPO`
-
-## GitHub Actions
-
-Enable:
-
-**Settings -> Actions -> General -> Workflow permissions -> Read and write permissions**
-
-The guide explains that write permission is needed because workflows commit generated files back to the repository. fileciteturn0file0L427-L432
-
-## Push
+From the extracted folder:
 
 ```powershell
 git init
 git branch -M main
 git add -A
-git commit -m "build profile README"
+git commit -m "build GitHub profile"
 git remote add origin https://github.com/Samruddhi192105/Samruddhi192105.git
 git push -u origin main
 ```
 
-Then run the workflows manually once from the Actions tab. fileciteturn0file0L457-L486
+## 3. GitHub Actions
 
-## Important
+The repository contains an automatic workflow at:
 
-The guide specifically recommends testing both dark and light GitHub themes because charts can become unreadable in the opposite theme. fileciteturn0file0L170-L187
+`.github/workflows/radar.yml`
+
+It regenerates the skill/language visuals, project cards and the list of public repositories. Run **Actions → Update profile assets → Run workflow** once after the first push.
+
+The workflow needs repository write permission so it can commit generated assets:
+
+**Settings → Actions → General → Workflow permissions → Read and write permissions**
+
+## 4. Your photo
+
+Your uploaded photo has already been cropped for a clear portrait and placed at:
+
+`assets/samruddhi.jpg`
+
+It is displayed **at the very top of the profile**, above your name.
+
+If you ever want to replace it, keep the filename `samruddhi.jpg` and use a clear portrait-oriented image.
+
+## 5. What is already customized
+
+- Name: **Samruddhi Ghawade**
+- GitHub: **Samruddhi192105**
+- LinkedIn: your provided profile
+- Email: your provided email
+- Featured projects: AI SQL Generator, AI Agent Swarm, Multimodal RAG and GitLite
+- Other projects: SecureDoc and NurseManagementSystem
+- Public repository list: automatically refreshed from GitHub
+- Dark/light theme support for local visuals
+
+There are no `YOUR_*` placeholders left in the README.
