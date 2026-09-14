@@ -181,6 +181,8 @@ Always learning · Always building · Always improving ✨
 |---|---|
 | **SecureDoc** | Secure document management with authentication, storage and access control. |
 | **NurseManagementSystem** | Full-stack nurse staffing and management application. |
+| **DensePose Human Body Surface Mapper** | Computer-vision project for mapping human pixels to a 3D body-surface representation. |
+| **AR Face Filter** | Augmented-reality face-filter project for real-time face detection, tracking and visual effects. |
 
 </details>
 
@@ -220,6 +222,8 @@ Always learning · Always building · Always improving ✨
 | [SecureDoc](https://github.com/Samruddhi192105/SecureDoc) | JavaScript | 0 | Secure document management with authentication and access control. |
 | [ai-agent-swarm](https://github.com/Samruddhi192105/ai-agent-swarm) | Java | 0 | Multi-agent AI system for planning, coding, testing and review. |
 | [multimodal-rag](https://github.com/Samruddhi192105/multimodal-rag) | Python | 0 | Multimodal RAG system for PDF text and image retrieval. |
+| [densepose-human-body-surface-mapper](https://github.com/Samruddhi192105/densepose-human-body-surface-mapper) | Python | 0 | Computer-vision project for human body-surface mapping using DensePose. |
+| [AR-Face-Filter](https://github.com/Samruddhi192105/AR-Face-Filter) | JavaScript | 0 | Augmented-reality face filter with real-time face tracking and effects. |
 <!-- ALL_REPOS_END -->
 
 </details>
