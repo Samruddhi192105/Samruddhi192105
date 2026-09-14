@@ -1,12 +1,10 @@
 <div align="center">
 
-<table>
-<tr>
-<td bgcolor="#FFF8E1" align="center">
+<img src="assets/yellow-hero.svg" width="100%" alt="Pastel yellow decorative header" />
 
-<br>
+<img src="assets/samruddhi.jpg" width="300" alt="Samruddhi Ghawade" />
 
-<img src="assets/samruddhi.jpg" width="260" alt="Samruddhi Ghawade" />
+<img src="assets/cute-stickers.svg" width="100%" alt="" />
 
 # Hi, I'm Samruddhi Ghawade 👋
 
@@ -28,15 +26,13 @@ Always learning · Always building · Always improving ✨
 
 <br>
 
-</td>
-</tr>
-</table>
+<img src="assets/cute-stickers.svg" width="72%" alt="" />
 
 </div>
 
 ---
 
-## 👩‍💻 About Me
+## 🌼 About Me
 
 <table>
 <tr>
@@ -72,7 +68,7 @@ Always learning · Always building · Always improving ✨
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Tech Stack
 
 <div align="center">
 
@@ -82,7 +78,7 @@ Always learning · Always building · Always improving ✨
 
 ---
 
-## 📊 Skills & GitHub
+## 🌻 Skills & GitHub
 
 <table>
 <tr>
@@ -113,7 +109,10 @@ Always learning · Always building · Always improving ✨
 
 ---
 
-## 🚀 Featured Projects
+## 🎀 Featured Projects
+
+<div align="center"><img src="assets/cute-stickers.svg" width="68%" alt="Cute yellow stickers" /></div>
+
 
 <table>
 <tr>
@@ -165,7 +164,7 @@ Always learning · Always building · Always improving ✨
 
 ---
 
-## 📈 GitHub Overview
+## 🌟 GitHub Overview
 
 <p align="center">
 <picture>
@@ -177,7 +176,7 @@ Always learning · Always building · Always improving ✨
 
 ---
 
-## 📚 All GitHub Repositories
+## 🌼 All GitHub Repositories
 
 The list below is updated automatically by GitHub Actions from my public repositories.
 
@@ -194,7 +193,7 @@ The list below is updated automatically by GitHub Actions from my public reposit
 
 ---
 
-## 🐍 Contribution Activity
+## 🐝 Contribution Activity
 
 <div align="center">
 
@@ -203,6 +202,8 @@ The list below is updated automatically by GitHub Actions from my public reposit
 </div>
 
 ---
+
+<div align="center"><img src="assets/cute-stickers.svg" width="55%" alt="Cute yellow stickers" /></div>
 
 ## 🌱 Currently Learning
 

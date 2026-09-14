@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+<rect width="1200" height="230" rx="28" fill="#FFF8E1"/>
+<path d="M0 190 C180 125 300 250 500 175 S850 100 1200 170 V230 H0Z" fill="#FFE082" opacity=".55"/>
+<path d="M0 210 C210 150 340 245 560 195 S900 135 1200 195 V230 H0Z" fill="#FFD54F" opacity=".28"/>
+<g fill="#D6A800" opacity=".8">
+<text x="55" y="58" font-size="28">✦</text>
+<text x="1080" y="62" font-size="32">✦</text>
+<text x="1020" y="180" font-size="25">✧</text>
+<text x="140" y="178" font-size="24">✧</text>
+</g>
+<g fill="none" stroke="#D6A800" stroke-width="3" opacity=".65">
+<path d="M930 35 q25 20 0 45 q-25-25 0-45"/>
+<path d="M955 45 q25 20 0 45 q-25-25 0-45"/>
+</g>
+</svg>
