@@ -1,30 +1,36 @@
+<a name="readme-top"></a>
 <div align="center">
 
-<img src="assets/yellow-hero.svg" width="100%" alt="Pastel yellow decorative header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF8E1,50:FFE082,100:F5C542&height=200&section=header&text=Samruddhi%20Ghawade&fontSize=46&fontColor=3B2F14&fontAlignY=42&desc=Full%20Stack%20%26%20Backend%20Developer%20·%20AI%2FML&descAlignY=62&descSize=18&animation=fadeIn" width="100%" alt="Header banner" />
 
-<img src="assets/samruddhi.jpg" width="300" alt="Samruddhi Ghawade" />
+<img src="assets/samruddhi.jpg" width="180" style="border-radius:50%" alt="Samruddhi Ghawade" />
 
-<img src="assets/cute-stickers.svg" width="100%" alt="" />
+<br><br>
 
-# Hi, I'm Samruddhi Ghawade 👋
-
-### 💻 Computer Engineering Student · Full Stack & Backend Developer
-
-**AI/ML · Java · Spring Boot · Next.js · PostgreSQL · Docker**
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Poppins&size=22&pause=1200&color=D6A800&center=true&vCenter=true&width=560&height=40&lines=Computer+Engineering+Student+%F0%9F%8E%93;Java+%C2%B7+Spring+Boot+%C2%B7+Next.js+%C2%B7+PostgreSQL;Building+AI+Agents+%26+RAG+Systems+%F0%9F%A4%96;Docker+%C2%B7+CI%2FCD+%C2%B7+Always+Learning+%E2%9C%A8)](https://git.io/typing-svg)
 
 <p>
   <a href="https://www.linkedin.com/in/samruddhi-ghawade-967744327/"><img src="https://img.shields.io/badge/LinkedIn-F5C542?style=for-the-badge&logo=linkedin&logoColor=3B2F14" alt="LinkedIn" /></a>
   <a href="mailto:ghawadesamruddhi19@gmail.com"><img src="https://img.shields.io/badge/Email-E7A900?style=for-the-badge&logo=gmail&logoColor=3B2F14" alt="Email" /></a>
   <a href="https://github.com/Samruddhi192105"><img src="https://img.shields.io/badge/GitHub-F5C542?style=for-the-badge&logo=github&logoColor=3B2F14" alt="GitHub" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Samruddhi192105&style=for-the-badge&color=F5C542&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 > 🌼 **Better Code · Bigger Dreams ♡**
 
-I build practical software with **Java, Spring Boot, Next.js, PostgreSQL, Docker and AI**.
-
 Always learning · Always building · Always improving ✨
 
 <br>
+
+<p>
+<a href="#-about-me">About</a> ·
+<a href="#-tech-stack">Tech Stack</a> ·
+<a href="#-skills--github">Skills</a> ·
+<a href="#-featured-projects">Projects</a> ·
+<a href="#-github-overview">Stats</a> ·
+<a href="#-all-github-repositories">Repos</a> ·
+<a href="#-contribution-activity">Activity</a>
+</p>
 
 <img src="assets/cute-stickers.svg" width="72%" alt="" />
 
@@ -66,6 +72,8 @@ Always learning · Always building · Always improving ✨
 </tr>
 </table>
 
+<div align="right"><a href="#readme-top">↑ back to top</a></div>
+
 ---
 
 ## ✨ Tech Stack
@@ -75,6 +83,8 @@ Always learning · Always building · Always improving ✨
 <img src="https://skillicons.dev/icons?i=java,cpp,js,react,nextjs,nodejs,express,spring,tailwind,postgres,mongodb,supabase,docker,maven,git,github,vscode,html,css&perline=10" alt="Technology stack" />
 
 </div>
+
+<div align="right"><a href="#readme-top">↑ back to top</a></div>
 
 ---
 
@@ -106,6 +116,8 @@ Always learning · Always building · Always improving ✨
 </td>
 </tr>
 </table>
+
+<div align="right"><a href="#readme-top">↑ back to top</a></div>
 
 ---
 
@@ -157,10 +169,18 @@ Always learning · Always building · Always improving ✨
 </tr>
 </table>
 
-### 🌼 Other Projects
+<details>
+<summary><b>🌼 Other Projects</b> — click to expand</summary>
+<br>
 
-- **SecureDoc** — secure document management with authentication, storage and access control.
-- **NurseManagementSystem** — full-stack nurse staffing and management application.
+| Project | Description |
+|---|---|
+| **SecureDoc** | Secure document management with authentication, storage and access control. |
+| **NurseManagementSystem** | Full-stack nurse staffing and management application. |
+
+</details>
+
+<div align="right"><a href="#readme-top">↑ back to top</a></div>
 
 ---
 
@@ -174,11 +194,18 @@ Always learning · Always building · Always improving ✨
 </picture>
 </p>
 
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Samruddhi192105&theme=default&hide_border=true&background=FFFDF5&ring=F5C542&fire=E7A900&currStreakLabel=3B2F14&currStreakNum=3B2F14&sideNums=3B2F14&sideLabels=3B2F14&dates=8A7A3E" width="520" alt="GitHub streak stats" />
+</p>
+
+<div align="right"><a href="#readme-top">↑ back to top</a></div>
+
 ---
 
 ## 🌼 All GitHub Repositories
 
-The list below is updated automatically by GitHub Actions from my public repositories.
+<details open>
+<summary>The list below is updated automatically by GitHub Actions from my public repositories — click to collapse</summary>
 
 <!-- ALL_REPOS_START -->
 | Repository | Language | Stars | Description |
@@ -191,6 +218,10 @@ The list below is updated automatically by GitHub Actions from my public reposit
 | [multimodal-rag](https://github.com/Samruddhi192105/multimodal-rag) | Python | 0 | Multimodal RAG system for PDF text and image retrieval. |
 <!-- ALL_REPOS_END -->
 
+</details>
+
+<div align="right"><a href="#readme-top">↑ back to top</a></div>
+
 ---
 
 ## 🐝 Contribution Activity
@@ -200,6 +231,8 @@ The list below is updated automatically by GitHub Actions from my public reposit
 <img src="https://raw.githubusercontent.com/Samruddhi192105/Samruddhi192105/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
 
 </div>
+
+<div align="right"><a href="#readme-top">↑ back to top</a></div>
 
 ---
 
@@ -220,5 +253,7 @@ The list below is updated automatically by GitHub Actions from my public reposit
 ### 🌼 Build things that solve real problems.
 
 **Build. Break. Learn. Ship. 🚀**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F5C542,50:FFE082,100:FFF8E1&height=120&section=footer&animation=fadeIn" width="100%" alt="Footer banner" />
 
 </div>
