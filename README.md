@@ -36,15 +36,15 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/☕%20Backend%20Development-F5C542?style=for-the-badge&labelColor=FFF8E1&color=F5C542" />
-<img src="https://img.shields.io/badge/⚛️%20Full%20Stack-FFD966?style=for-the-badge&labelColor=FFF8E1&color=FFD966" />
-<img src="https://img.shields.io/badge/🤖%20AI%20%26%20ML-F4B942?style=for-the-badge&labelColor=FFF8E1&color=F4B942" />
+<img src="https://img.shields.io/badge/%20Backend%20Development-F5C542?style=for-the-badge&labelColor=FFF8E1&color=F5C542" />
+<img src="https://img.shields.io/badge/%20Full%20Stack-FFD966?style=for-the-badge&labelColor=FFF8E1&color=FFD966" />
+<img src="https://img.shields.io/badge/%20AI%20%26%20ML-F4B942?style=for-the-badge&labelColor=FFF8E1&color=F4B942" />
 
 <br>
 
-<img src="https://img.shields.io/badge/🗄️%20Databases-E8C547?style=for-the-badge&labelColor=FFF8E1&color=E8C547" />
-<img src="https://img.shields.io/badge/🐳%20Docker-F6D365?style=for-the-badge&labelColor=FFF8E1&color=F6D365" />
-<img src="https://img.shields.io/badge/🧠%20DSA-F5C542?style=for-the-badge&labelColor=FFF8E1&color=F5C542" />
+<img src="https://img.shields.io/badge/%20Databases-E8C547?style=for-the-badge&labelColor=FFF8E1&color=E8C547" />
+<img src="https://img.shields.io/badge/%20Docker-F6D365?style=for-the-badge&labelColor=FFF8E1&color=F6D365" />
+<img src="https://img.shields.io/badge/%20DSA-F5C542?style=for-the-badge&labelColor=FFF8E1&color=F5C542" />
 
 </div>
 
@@ -93,65 +93,46 @@
 
 ---
 
+
 ##  Featured Projects
-<br>
 
-<table>
-<tr>
-<td width="50%" align="center" bgcolor="#FFFDF5">
+<div align="center">
+
 <a href="https://github.com/Samruddhi192105/ai-sql-generator">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/card-ai-sql-generator-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="assets/card-ai-sql-generator-light.svg">
-<img src="assets/card-ai-sql-generator-light.svg" width="100%" alt="AI SQL Generator">
-</picture>
+  <img src="assets/card-ai-sql-generator-light.svg"
+       width="47%"
+       alt="AI SQL Generator" />
 </a>
-</td>
-<td width="50%" align="center" bgcolor="#FFF8E1">
-<a href="https://github.com/Samruddhi192105/ai-agent-swarm">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/card-ai-agent-swarm-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="assets/card-ai-agent-swarm-light.svg">
-<img src="assets/card-ai-agent-swarm-light.svg" width="100%" alt="AI Agent Swarm">
-</picture>
-</a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" bgcolor="#FFF8E1">
-<a href="https://github.com/Samruddhi192105/multimodal-rag">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/card-multimodal-rag-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="assets/card-multimodal-rag-light.svg">
-<img src="assets/card-multimodal-rag-light.svg" width="100%" alt="Multimodal RAG">
-</picture>
-</a>
-</td>
-<td width="50%" align="center" bgcolor="#FFFDF5">
-<a href="https://github.com/Samruddhi192105/GitLite">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/card-gitlite-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="assets/card-gitlite-light.svg">
-<img src="assets/card-gitlite-light.svg" width="100%" alt="GitLite">
-</picture>
-</a>
-</td>
-</tr>
-</table>
 
+<a href="https://github.com/Samruddhi192105/ai-agent-swarm">
+  <img src="assets/card-ai-agent-swarm-light.svg"
+       width="47%"
+       alt="AI Agent Swarm" />
+</a>
+
+<a href="https://github.com/Samruddhi192105/multimodal-rag">
+  <img src="assets/card-multimodal-rag-light.svg"
+       width="47%"
+       alt="Multimodal RAG" />
+</a>
+
+<a href="https://github.com/Samruddhi192105/GitLite">
+  <img src="assets/card-gitlite-light.svg"
+       width="47%"
+       alt="GitLite" />
+</a>
+</div>
 <details>
-<summary><b> Other Projects</b> — click to expand</summary>
+<summary> <b>Other Projects</b> — click to expand</summary>
+
 <br>
 
-| Project | Description |
-|---|---|
-| **SecureDoc** | Secure document management with authentication, storage and access control. |
-| **NurseManagementSystem** | Full-stack nurse staffing and management application. |
-| **DensePose Human Body Surface Mapper** | Computer-vision project for mapping human pixels to a 3D body-surface representation. |
-| **AR Face Filter** | Augmented-reality face-filter project for real-time face detection, tracking and visual effects. |
+-  **SecureDoc** — Secure document management with authentication, storage and access control.
+-  **NurseManagementSystem** — Full-stack nurse staffing and management application.
+-  **DensePose Human Body Surface Mapper** — Computer-vision project for mapping human pixels to a 3D body-surface representation.
+-  **AR Face Filter** — Augmented-reality face-filter project for real-time face detection, tracking and visual effects.
 
 </details>
-
 
 ---
 
