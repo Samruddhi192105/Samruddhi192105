@@ -336,6 +336,8 @@ Real-time **augmented-reality face filter** with face tracking and interactive e
 
 ---
 
+---
+
 ## 🐝 Contribution Activity
 
 <div align="center">
@@ -356,10 +358,10 @@ Real-time **augmented-reality face filter** with face tracking and interactive e
     alt="GitHub Contribution Snake"
     width="900"
   />
+
 </picture>
 
 </div>
-
 
 ---
 
