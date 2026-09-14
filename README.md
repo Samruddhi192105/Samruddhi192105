@@ -32,26 +32,91 @@
 
 ---
 
-##  About Me
-
-###  What I Do
-
--  Build **backend systems and REST APIs** using Java & Spring Boot
--  Create **full-stack applications** with React, Next.js & JavaScript
--  Explore **AI Agents, RAG systems, LLM applications & AI/ML**
--  Work with **PostgreSQL, MongoDB & Supabase**
--  Use **Docker, Git & CI/CD** for modern development workflows
--  Strengthen my **DSA, System Design & problem-solving** skills
-
-###  Currently Exploring
+## 🌼 About Me
 
 <div align="center">
 
-`AI Agents` &nbsp; `RAG` &nbsp; `System Design` &nbsp; `Spring Boot`
+<img src="assets/cute-stickers.svg" width="140" alt="Cute developer stickers" />
 
-`Python` &nbsp; `Docker` &nbsp; `CI/CD` &nbsp; `DSA`
+<h2>👋 Hey, I'm Samruddhi!</h2>
+
+<p>
+  <strong>💻 Computer Engineering Student</strong>
+  &nbsp; • &nbsp;
+  <strong>🚀 Full Stack Developer</strong>
+  &nbsp; • &nbsp;
+  <strong>🤖 AI/ML Enthusiast</strong>
+</p>
+
+<p>
+  I love turning ideas into <strong>useful, beautiful &amp; intelligent software</strong>.
+  <br>
+  I'm especially interested in backend development, AI systems and modern web applications.
+</p>
 
 </div>
+
+<br>
+
+### 💛 What I Do
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/☕%20Backend%20Development-F5C542?style=for-the-badge&labelColor=FFF8E1&color=F5C542" />
+<img src="https://img.shields.io/badge/⚛️%20Full%20Stack-FFD966?style=for-the-badge&labelColor=FFF8E1&color=FFD966" />
+<img src="https://img.shields.io/badge/🤖%20AI%20%26%20ML-F4B942?style=for-the-badge&labelColor=FFF8E1&color=F4B942" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/🗄️%20Databases-E8C547?style=for-the-badge&labelColor=FFF8E1&color=E8C547" />
+<img src="https://img.shields.io/badge/🐳%20Docker-F6D365?style=for-the-badge&labelColor=FFF8E1&color=F6D365" />
+<img src="https://img.shields.io/badge/🧠%20DSA-F5C542?style=for-the-badge&labelColor=FFF8E1&color=F5C542" />
+
+</div>
+
+<br>
+
+### 🌻 My Tech Interests
+
+<div align="center">
+
+`Spring Boot` &nbsp; ✦ &nbsp;
+`React` &nbsp; ✦ &nbsp;
+`Java` &nbsp; ✦ &nbsp;
+`Python`
+
+<br>
+
+`AI Agents` &nbsp; ✦ &nbsp;
+`RAG` &nbsp; ✦ &nbsp;
+`LLMs` &nbsp; ✦ &nbsp;
+`System Design`
+
+<br>
+
+`PostgreSQL` &nbsp; ✦ &nbsp;
+`MongoDB` &nbsp; ✦ &nbsp;
+`Docker` &nbsp; ✦ &nbsp;
+`Git`
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 🌱 Currently Learning
+
+<img src="https://img.shields.io/badge/AI%20Agents-F5C542?style=flat-square&logoColor=3B2F14" />
+<img src="https://img.shields.io/badge/RAG-FFD966?style=flat-square&logoColor=3B2F14" />
+<img src="https://img.shields.io/badge/System%20Design-F4B942?style=flat-square&logoColor=3B2F14" />
+<img src="https://img.shields.io/badge/CI%2FCD-E8C547?style=flat-square&logoColor=3B2F14" />
+
+<br><br>
+
+> 🌼 **Build things that solve real problems.**
+
+**Build · Break · Learn · Ship 🚀**
 
 </div>
 
@@ -336,7 +401,6 @@ Real-time **augmented-reality face filter** with face tracking and interactive e
 
 ---
 
----
 
 ## 🐝 Contribution Activity
 
