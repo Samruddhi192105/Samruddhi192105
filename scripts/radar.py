@@ -1,16 +1,16 @@
 import argparse,json,math,urllib.request,html
 from pathlib import Path
-GREEN="#39D353"; DARK="#0d1117"; LIGHT="#ffffff"; DT="#f0f6fc"; LT="#24292f"
+GREEN="#F5C542"; DARK="#1A160B"; LIGHT="#FFFDF5"; DT="#FFF7D6"; LT="#3B2F14"
 def svg(labels,vals,dark,title):
     bg,fg=(DARK,DT) if dark else (LIGHT,LT); cx=250; cy=250; R=160; n=len(labels)
     def p(r,i):
         a=-math.pi/2+2*math.pi*i/n; return cx+r*math.cos(a),cy+r*math.sin(a)
     def poly(r): return " ".join(f"{p(r,i)[0]:.1f},{p(r,i)[1]:.1f}" for i in range(n))
-    rings="".join(f'<polygon points="{poly(R*k/5)}" fill="none" stroke="#57606a" stroke-opacity=".45"/>' for k in range(1,6))
+    rings="".join(f'<polygon points="{poly(R*k/5)}" fill="none" stroke="#8A7A5A" stroke-opacity=".45"/>' for k in range(1,6))
     spokes=""; labels_svg=""
     for i,l in enumerate(labels):
         x,y=p(R,i); x2,y2=p(R+30,i)
-        spokes+=f'<line x1="{cx}" y1="{cy}" x2="{x:.1f}" y2="{y:.1f}" stroke="#57606a" stroke-opacity=".5"/>'
+        spokes+=f'<line x1="{cx}" y1="{cy}" x2="{x:.1f}" y2="{y:.1f}" stroke="#8A7A5A" stroke-opacity=".5"/>'
         anchor="middle" if abs(x2-cx)<15 else ("start" if x2>cx else "end")
         labels_svg+=f'<text x="{x2:.1f}" y="{y2:.1f}" text-anchor="{anchor}" dominant-baseline="middle" font-family="Arial" font-size="13" fill="{fg}">{html.escape(l)}</text>'
     data=" ".join(f"{p(R*v/100,i)[0]:.1f},{p(R*v/100,i)[1]:.1f}" for i,v in enumerate(vals))

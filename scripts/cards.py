@@ -1,6 +1,6 @@
 import argparse,json,urllib.request,html
 from pathlib import Path
-GREEN="#39D353"; DARK="#0d1117"; LIGHT="#ffffff"; DT="#f0f6fc"; LT="#24292f"
+GREEN="#F5C542"; DARK="#1A160B"; LIGHT="#FFFDF5"; DT="#FFF7D6"; LT="#3B2F14"
 def api(u):
  q=urllib.request.Request(u,headers={"User-Agent":"profile-generator"}); 
  with urllib.request.urlopen(q,timeout=20) as r:return json.load(r)
