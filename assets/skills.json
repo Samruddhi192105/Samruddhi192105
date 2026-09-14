@@ -1,0 +1,33 @@
+{
+  "title": "Skill Radar",
+  "axes": [
+    {
+      "label": "Java",
+      "value": 88
+    },
+    {
+      "label": "JavaScript",
+      "value": 82
+    },
+    {
+      "label": "React / Next.js",
+      "value": 84
+    },
+    {
+      "label": "Spring Boot",
+      "value": 72
+    },
+    {
+      "label": "Databases",
+      "value": 78
+    },
+    {
+      "label": "AI / RAG",
+      "value": 72
+    },
+    {
+      "label": "DSA",
+      "value": 78
+    }
+  ]
+}

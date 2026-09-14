@@ -1,0 +1,32 @@
+name: Refresh Profile Assets
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate assets
+        run: |
+          python scripts/radar.py --data assets/skills.json -o assets/radar
+          python scripts/radar.py --github "${{ github.repository_owner }}" -o assets/radar-langs --limit 7 --curve 0.4 --exclude "Shell,Makefile,Dockerfile"
+          python scripts/cards.py --user "${{ github.repository_owner }}" --out assets
+          python scripts/repos.py --user "${{ github.repository_owner }}" --out assets/all-repositories.md
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("README.md"); s=p.read_text(); r=Path("assets/all-repositories.md").read_text().strip()
+          a="<!-- ALL_REPOS_START -->"; b="<!-- ALL_REPOS_END -->"
+          s=s.split(a)[0]+a+"\n"+r+"\n"+b+s.split(b)[1]
+          p.write_text(s)
+          PY
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || git commit -m "chore: refresh profile assets"
+          git push

@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "repo": "ai-sql-generator",
+      "description": "AI-powered natural-language to SQL developer tool."
+    },
+    {
+      "repo": "GitLite",
+      "description": "Java command-line Git simulator exploring version-control internals."
+    },
+    {
+      "repo": "NurseManagementSystem",
+      "description": "Full-stack nurse staffing and management application."
+    },
+    {
+      "repo": "SecureDoc",
+      "description": "Secure document management with authentication, storage and access control."
+    },
+    {
+      "repo": "ai-agent-swarm",
+      "description": "Multi-agent AI system for planning, coding, testing and review."
+    },
+    {
+      "repo": "multimodal-rag",
+      "description": "Multimodal RAG system for PDF text and image retrieval."
+    }
+  ],
+  "note": "The workflow fetches every public repository automatically."
+}
