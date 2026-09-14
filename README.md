@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF8E1,50:FFE082,100:F5C542&height=200&section=header&text=Samruddhi%20Ghawade&fontSize=46&fontColor=3B2F14&fontAlignY=42&desc=Full%20Stack%20%26%20Backend%20Developer%20·%20AI%2FML&descAlignY=62&descSize=18&animation=fadeIn" width="100%" alt="Header banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF8E1,50:FFE082,100:F5C542&height=200&section=header&text=Samruddhi%20Ghawade&fontSize=46&fontColor=3B2F14&fontAlignY=42&desc=Full%20Stack%20%26%20Backend%20Developer%20-%20AI%2FML&descAlignY=62&descSize=18&animation=fadeIn" width="100%" alt="Header banner" />
 
 <img src="assets/samruddhi.jpg" width="180" style="border-radius:50%" alt="Samruddhi Ghawade" />
 
@@ -10,9 +10,13 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Poppins&size=22&pause=1200&color=D6A800&center=true&vCenter=true&width=560&height=40&lines=Computer+Engineering+Student+%F0%9F%8E%93;Java+%C2%B7+Spring+Boot+%C2%B7+Next.js+%C2%B7+PostgreSQL;Building+AI+Agents+%26+RAG+Systems+%F0%9F%A4%96;Docker+%C2%B7+CI%2FCD+%C2%B7+Always+Learning+%E2%9C%A8)](https://git.io/typing-svg)
 
 <p>
-  <a href="https://www.linkedin.com/in/samruddhi-ghawade-967744327/"><img src="https://img.shields.io/badge/LinkedIn-F5C542?style=for-the-badge&logo=linkedin&logoColor=3B2F14" alt="LinkedIn" /></a>
   <a href="mailto:ghawadesamruddhi19@gmail.com"><img src="https://img.shields.io/badge/Email-E7A900?style=for-the-badge&logo=gmail&logoColor=3B2F14" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/samruddhi-ghawade-967744327/"><img src="https://img.shields.io/badge/LinkedIn-F5C542?style=for-the-badge&logo=linkedin&logoColor=3B2F14" alt="LinkedIn" /></a>
   <a href="https://github.com/Samruddhi192105"><img src="https://img.shields.io/badge/GitHub-F5C542?style=for-the-badge&logo=github&logoColor=3B2F14" alt="GitHub" /></a>
+  <a href="https://leetcode.com/u/Samruddhi_Gh/"><img src="https://img.shields.io/badge/LeetCode-E7A900?style=for-the-badge&logo=leetcode&logoColor=3B2F14" alt="LeetCode" /></a>
+</p>
+
+<p>
   <img src="https://komarev.com/ghpvc/?username=Samruddhi192105&style=for-the-badge&color=F5C542&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
@@ -228,7 +232,11 @@ Always learning · Always building · Always improving ✨
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Samruddhi192105/Samruddhi192105/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Samruddhi192105/Samruddhi192105/output/snake-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Samruddhi192105/Samruddhi192105/output/snake.svg">
+<img src="https://raw.githubusercontent.com/Samruddhi192105/Samruddhi192105/output/snake.svg" alt="GitHub Contribution Snake" />
+</picture>
 
 </div>
 
