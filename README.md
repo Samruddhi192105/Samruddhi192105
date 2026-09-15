@@ -18,16 +18,6 @@
   <img src="https://komarev.com/ghpvc/?username=Samruddhi192105&style=for-the-badge&color=F5C542&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-<p>
-<a href="#-about-me"><img src="https://img.shields.io/badge/About-FFF8E1?style=flat-square&logoColor=3B2F14" alt="About" /></a>
-<a href="#-tech-stack"><img src="https://img.shields.io/badge/Tech%20Stack-FFE082?style=flat-square&logoColor=3B2F14" alt="Tech Stack" /></a>
-<a href="#-skills--github"><img src="https://img.shields.io/badge/Skills-FFF8E1?style=flat-square&logoColor=3B2F14" alt="Skills" /></a>
-<a href="#-featured-projects"><img src="https://img.shields.io/badge/Projects-FFE082?style=flat-square&logoColor=3B2F14" alt="Projects" /></a>
-<a href="#-github-overview"><img src="https://img.shields.io/badge/Stats-FFF8E1?style=flat-square&logoColor=3B2F14" alt="Stats" /></a>
-<a href="#-all-github-repositories"><img src="https://img.shields.io/badge/Repos-FFE082?style=flat-square&logoColor=3B2F14" alt="Repos" /></a>
-<a href="#-contribution-activity"><img src="https://img.shields.io/badge/Activity-FFF8E1?style=flat-square&logoColor=3B2F14" alt="Activity" /></a>
-</p>
-
 </div>
 
 ---
@@ -78,7 +68,7 @@
 </td>
 <td width="50%" align="center" bgcolor="#FFF8E1">
 
-### 📈 Repository Languages
+###  Repository Languages
 
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/radar-langs-dark.svg">
