@@ -16,6 +16,9 @@
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=Samruddhi192105&style=for-the-badge&color=F5C542&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://portfolio-samruddhi-ghawade-82.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-F5C542?style=for-the-badge&logo=vercel&logoColor=3B2F14" alt="Portfolio" />
+  </a>
 </p>
 
 </div>
