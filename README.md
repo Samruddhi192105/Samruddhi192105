@@ -129,22 +129,6 @@
 
 ---
 
-##  GitHub Overview
-
-<p align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-<img src="assets/stats-light.svg" width="520" alt="GitHub overview">
-</picture>
-</p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Samruddhi192105&theme=default&hide_border=true&background=FFFDF5&ring=F5C542&fire=E7A900&currStreakLabel=3B2F14&currStreakNum=3B2F14&sideNums=3B2F14&sideLabels=3B2F14&dates=8A7A3E" width="520" alt="GitHub streak stats" />
-</p>
-
----
-
 ##  All GitHub Repositories
 
 <div align="center">
