@@ -8,7 +8,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Poppins&size=22&pause=1200&color=D6A800&center=true&vCenter=true&width=560&height=40&lines=Computer+Engineering+Student+%F0%9F%8E%93;Java+%C2%B7+Spring+Boot+%C2%B7+Next.js+%C2%B7+PostgreSQL;Building+AI+Agents+%26+RAG+Systems+%F0%9F%A4%96;Docker+%C2%B7+CI%2FCD+%C2%B7+Always+Learning+%E2%9C%A8)](https://git.io/typing-svg)
 
 <p>
-  <a href="mailto:ghawadesamruddhi19@gmail.com"><img src="https://img.shields.io/badge/Email-E7A900?style=for-the-badge&logo=gmail&logoColor=3B2F14" alt="Email" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ghawadesamruddhi19@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-E7A900?style=for-the-badge&logo=gmail&logoColor=3B2F14" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/samruddhi-ghawade-967744327/"><img src="https://img.shields.io/badge/LinkedIn-F5C542?style=for-the-badge&logo=linkedin&logoColor=3B2F14" alt="LinkedIn" /></a>
   <a href="https://github.com/Samruddhi192105"><img src="https://img.shields.io/badge/GitHub-F5C542?style=for-the-badge&logo=github&logoColor=3B2F14" alt="GitHub" /></a>
   <a href="https://leetcode.com/u/Samruddhi_Gh/"><img src="https://img.shields.io/badge/LeetCode-E7A900?style=for-the-badge&logo=leetcode&logoColor=3B2F14" alt="LeetCode" /></a>
