@@ -47,35 +47,40 @@ jobs:
           python - <<'PY'
           from pathlib import Path
 
-          p = Path("README.md")
-          s = p.read_text(encoding="utf-8")
-          r = Path("assets/all-repositories.md").read_text(
+          readme = Path("README.md")
+          repositories = Path("assets/all-repositories.md").read_text(
               encoding="utf-8"
           ).strip()
 
-          a = "<!-- ALL_REPOS_START -->"
-          b = "<!-- ALL_REPOS_END -->"
+          start_marker = "<!-- ALL_REPOS_START -->"
+          end_marker = "<!-- ALL_REPOS_END -->"
 
-          if a in s and b in s:
-              before = s.split(a, 1)[0]
-              after = s.split(b, 1)[1]
+          content = readme.read_text(encoding="utf-8")
 
-              s = (
-                  before
-                  + a
-                  + "\n"
-                  + r
-                  + "\n"
-                  + b
-                  + after
+          if start_marker not in content or end_marker not in content:
+              raise RuntimeError(
+                  "README.md is missing ALL_REPOS_START or ALL_REPOS_END markers."
               )
 
-              p.write_text(s, encoding="utf-8")
-          else:
-              print("README markers not found; README was not modified.")
+          before = content.split(start_marker, 1)[0]
+          after = content.split(end_marker, 1)[1]
+
+          updated = (
+              before
+              + start_marker
+              + "\n"
+              + repositories
+              + "\n"
+              + end_marker
+              + after
+          )
+
+          readme.write_text(updated, encoding="utf-8")
+
+          print("README.md repository section updated successfully.")
           PY
 
-      - name: Commit updated assets
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
