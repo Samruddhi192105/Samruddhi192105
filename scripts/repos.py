@@ -5,21 +5,11 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-
 GITHUB_API_VERSION = "2022-11-28"
 USER_AGENT = "profile-generator"
 
 
 def api(url):
-    """
-    Make an authenticated GitHub API request.
-
-    GitHub Actions provides GITHUB_TOKEN automatically.
-    When running locally, the request can still work without
-    a token, although it will have the lower unauthenticated
-    API rate limit.
-    """
-
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": USER_AGENT,
@@ -31,10 +21,7 @@ def api(url):
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
-    request = urllib.request.Request(
-        url,
-        headers=headers,
-    )
+    request = urllib.request.Request(url, headers=headers)
 
     try:
         with urllib.request.urlopen(request, timeout=20) as response:
@@ -45,13 +32,8 @@ def api(url):
 
         if error.code == 401:
             print("GitHub token is invalid or unauthorized.")
-
         elif error.code == 403:
-            print(
-                "GitHub API access was forbidden or the API rate limit "
-                "was exceeded."
-            )
-
+            print("GitHub API access was forbidden or the API rate limit was exceeded.")
         elif error.code == 404:
             print("GitHub user or resource was not found.")
 
@@ -63,17 +45,8 @@ def main():
         description="Generate a Markdown table of GitHub repositories."
     )
 
-    parser.add_argument(
-        "--user",
-        required=True,
-        help="GitHub username",
-    )
-
-    parser.add_argument(
-        "--out",
-        required=True,
-        help="Output Markdown file",
-    )
+    parser.add_argument("--user", required=True, help="GitHub username")
+    parser.add_argument("--out", required=True, help="Output Markdown file")
 
     args = parser.parse_args()
 
@@ -86,12 +59,7 @@ def main():
 
     repos = api(url)
 
-    # Do not include forked repositories.
-    repos = [
-        repo
-        for repo in repos
-        if not repo.get("fork")
-    ]
+    repos = [repo for repo in repos if not repo.get("fork")]
 
     rows = [
         "| Repository | Language | Stars | Description |",
@@ -100,13 +68,8 @@ def main():
 
     for repo in repos:
         name = repo.get("name", "")
+        description = repo.get("description") or "No description"
 
-        description = (
-            repo.get("description")
-            or "No description"
-        )
-
-        # Prevent descriptions from breaking Markdown tables.
         description = (
             description
             .replace("|", "-")
@@ -118,8 +81,7 @@ def main():
         stars = repo.get("stargazers_count", 0)
 
         rows.append(
-            f'| [{name}]'
-            f'(https://github.com/{args.user}/{name}) '
+            f'| [{name}](https://github.com/{args.user}/{name}) '
             f'| {language} '
             f'| {stars} '
             f'| {description[:120]} |'
@@ -127,20 +89,14 @@ def main():
 
     output = Path(args.out)
 
-    output.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+    output.parent.mkdir(parents=True, exist_ok=True)
 
     output.write_text(
         "\n".join(rows) + "\n",
-        encoding="utf-8",
+        encoding="utf-8"
     )
 
-    print(
-        f"Generated {output} "
-        f"with {len(repos)} repositories."
-    )
+    print(f"Generated {output} with {len(repos)} repositories.")
 
 
 if __name__ == "__main__":
