@@ -1,8 +1,23 @@
-import argparse,json,urllib.request
-from pathlib import Path
+import json
+import os
+import urllib.request
+
+
 def api(url):
-    req=urllib.request.Request(url,headers={"User-Agent":"Samruddhi192105-profile"})
-    with urllib.request.urlopen(req,timeout=20) as r:return json.load(r)
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+
+    token = os.getenv("GITHUB_TOKEN")
+
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    req = urllib.request.Request(url, headers=headers)
+
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.load(r)
 p=argparse.ArgumentParser();p.add_argument("--user",required=True);p.add_argument("--out",required=True);a=p.parse_args()
 repos=api(f"https://api.github.com/users/{a.user}/repos?per_page=100&type=owner&sort=updated")
 repos=[r for r in repos if not r.get("fork")]
