@@ -131,6 +131,8 @@
 
 ##  All GitHub Repositories
 
+<!-- ALL_REPOS_START -->
+
 <div align="center">
 
 <table>
@@ -280,6 +282,8 @@ Real-time **augmented-reality face filter** with face tracking and interactive e
 </table>
 
 </div>
+
+<!-- ALL_REPOS_END -->
 
 ---
 
