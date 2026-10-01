@@ -2,15 +2,29 @@
 import argparse
 import json
 import os
-from pathlib import Path
 import urllib.error
 import urllib.request
+from pathlib import Path
+
+
+GITHUB_API_VERSION = "2022-11-28"
+USER_AGENT = "profile-generator"
 
 
 def api(url):
+    """
+    Make an authenticated GitHub API request.
+
+    GitHub Actions provides GITHUB_TOKEN automatically.
+    When running locally, the request can still work without
+    a token, although it will have the lower unauthenticated
+    API rate limit.
+    """
+
     headers = {
         "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": USER_AGENT,
+        "X-GitHub-Api-Version": GITHUB_API_VERSION,
     }
 
     token = os.getenv("GITHUB_TOKEN")
@@ -18,54 +32,118 @@ def api(url):
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
-    req = urllib.request.Request(url, headers=headers)
+    request = urllib.request.Request(
+        url,
+        headers=headers,
+    )
 
     try:
-        with urllib.request.urlopen(req, timeout=20) as r:
-            return json.load(r)
+        with urllib.request.urlopen(request, timeout=20) as response:
+            return json.load(response)
 
-    except urllib.error.HTTPError as e:
-        if e.code == 403:
-            print("GitHub API request was rejected (403).")
-            print("Check GITHUB_TOKEN and GitHub API rate limits.")
-            return []
+    except urllib.error.HTTPError as error:
+        print(f"GitHub API error: HTTP {error.code}")
+
+        if error.code == 401:
+            print("GitHub token is invalid or unauthorized.")
+
+        elif error.code == 403:
+            print(
+                "GitHub API access was forbidden or the API rate limit "
+                "was exceeded."
+            )
+
+        elif error.code == 404:
+            print("GitHub user or resource was not found.")
 
         raise
 
 
-p = argparse.ArgumentParser()
-p.add_argument("--user", required=True)
-p.add_argument("--out", required=True)
-a = p.parse_args()
-
-repos = api(
-    f"https://api.github.com/users/{a.user}/repos"
-    "?per_page=100&type=owner&sort=updated"
-)
-
-repos = [r for r in repos if not r.get("fork")]
-
-rows = [
-    "| Repository | Language | Stars | Description |",
-    "|---|---|---:|---|"
-]
-
-for r in repos:
-    desc = (
-        (r.get("description") or "No description")
-        .replace("|", "-")
-        .replace("\n", " ")
+def main():
+    parser = argparse.ArgumentParser(
+        description="Generate a Markdown table of GitHub repositories."
     )
 
-    rows.append(
-        f'| [{r["name"]}](https://github.com/{a.user}/{r["name"]}) '
-        f'| {r.get("language") or "—"} '
-        f'| {r.get("stargazers_count", 0)} '
-        f'| {desc[:120]} |'
+    parser.add_argument(
+        "--user",
+        required=True,
+        help="GitHub username",
     )
 
-Path(a.out).write_text(
-    "\n".join(rows) + "\n",
-    encoding="utf-8"
-)
+    parser.add_argument(
+        "--out",
+        required=True,
+        help="Output Markdown file",
+    )
+
+    args = parser.parse_args()
+
+    url = (
+        f"https://api.github.com/users/{args.user}/repos"
+        "?per_page=100"
+        "&type=owner"
+        "&sort=updated"
+    )
+
+    repos = api(url)
+
+    # Do not include forked repositories.
+    repos = [
+        repo
+        for repo in repos
+        if not repo.get("fork")
+    ]
+
+    rows = [
+        "| Repository | Language | Stars | Description |",
+        "|---|---|---:|---|",
+    ]
+
+    for repo in repos:
+        name = repo.get("name", "")
+
+        description = (
+            repo.get("description")
+            or "No description"
+        )
+
+        # Prevent descriptions from breaking Markdown tables.
+        description = (
+            description
+            .replace("|", "-")
+            .replace("\n", " ")
+            .replace("\r", " ")
+        )
+
+        language = repo.get("language") or "—"
+        stars = repo.get("stargazers_count", 0)
+
+        rows.append(
+            f'| [{name}]'
+            f'(https://github.com/{args.user}/{name}) '
+            f'| {language} '
+            f'| {stars} '
+            f'| {description[:120]} |'
+        )
+
+    output = Path(args.out)
+
+    output.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    output.write_text(
+        "\n".join(rows) + "\n",
+        encoding="utf-8",
+    )
+
+    print(
+        f"Generated {output} "
+        f"with {len(repos)} repositories."
+    )
+
+
+if __name__ == "__main__":
+    main()
 ```
