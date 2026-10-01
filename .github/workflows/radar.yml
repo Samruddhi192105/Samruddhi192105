@@ -14,13 +14,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
       - name: Generate assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/radar.py --data assets/skills.json -o assets/radar
+          python scripts/radar.py \
+            --data assets/skills.json \
+            -o assets/radar
 
           python scripts/radar.py \
             --github "${{ github.repository_owner }}" \
@@ -41,25 +49,44 @@ jobs:
           from pathlib import Path
 
           p = Path("README.md")
-          s = p.read_text()
-          r = Path("assets/all-repositories.md").read_text().strip()
+          s = p.read_text(encoding="utf-8")
+          r = Path("assets/all-repositories.md").read_text(
+              encoding="utf-8"
+          ).strip()
 
           a = "<!-- ALL_REPOS_START -->"
           b = "<!-- ALL_REPOS_END -->"
 
-          s = s.split(a)[0] + a + "\n" + r + "\n" + b + s.split(b)[1]
+          if a in s and b in s:
+              before = s.split(a, 1)[0]
+              after = s.split(b, 1)[1]
 
-          p.write_text(s)
+              s = (
+                  before
+                  + a
+                  + "\n"
+                  + r
+                  + "\n"
+                  + b
+                  + after
+              )
+
+              p.write_text(s, encoding="utf-8")
+          else:
+              print("README markers not found; README was not modified.")
           PY
 
-      - name: Commit
+      - name: Commit updated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add assets README.md
 
-          git diff --cached --quiet || git commit -m "chore: refresh profile assets"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh profile assets"
+            git push
+          fi
 ```
