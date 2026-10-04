@@ -1,7 +1,7 @@
 | Repository | Language | Stars | Description |
 |---|---|---:|---|
-| [neetcode-submissions](https://github.com/Samruddhi192105/neetcode-submissions) | Java | 0 | My NeetCode.io problem submissions |
 | [Samruddhi192105](https://github.com/Samruddhi192105/Samruddhi192105) | Python | 0 | No description |
+| [neetcode-submissions](https://github.com/Samruddhi192105/neetcode-submissions) | Java | 0 | My NeetCode.io problem submissions |
 | [densepose-human-body-surface-mapper](https://github.com/Samruddhi192105/densepose-human-body-surface-mapper) | Python | 0 | A computer vision application that uses DensePose to map the visible human body surface into detailed body-part regions  |
 | [ai-agent-swarm](https://github.com/Samruddhi192105/ai-agent-swarm) | Java | 0 | Multi-agent AI system that autonomously plans, codes, tests, and reviews software |
 | [Veylora](https://github.com/Samruddhi192105/Veylora) | Python | 0 | No description |
