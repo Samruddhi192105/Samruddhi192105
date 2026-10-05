@@ -1,7 +1,8 @@
 | Repository | Language | Stars | Description |
 |---|---|---:|---|
-| [Samruddhi192105](https://github.com/Samruddhi192105/Samruddhi192105) | Python | 0 | No description |
+| [GitLite](https://github.com/Samruddhi192105/GitLite) | TypeScript | 0 | No description |
 | [neetcode-submissions](https://github.com/Samruddhi192105/neetcode-submissions) | Java | 0 | My NeetCode.io problem submissions |
+| [Samruddhi192105](https://github.com/Samruddhi192105/Samruddhi192105) | Python | 0 | No description |
 | [densepose-human-body-surface-mapper](https://github.com/Samruddhi192105/densepose-human-body-surface-mapper) | Python | 0 | A computer vision application that uses DensePose to map the visible human body surface into detailed body-part regions  |
 | [ai-agent-swarm](https://github.com/Samruddhi192105/ai-agent-swarm) | Java | 0 | Multi-agent AI system that autonomously plans, codes, tests, and reviews software |
 | [Veylora](https://github.com/Samruddhi192105/Veylora) | Python | 0 | No description |
@@ -15,5 +16,4 @@
 | [SecureDoc](https://github.com/Samruddhi192105/SecureDoc) | JavaScript | 0 | Secure Doc is a web-based application designed to securely manage, store, and handle documents with a focus on data safe |
 | [employee-management-Spring-Boot-](https://github.com/Samruddhi192105/employee-management-Spring-Boot-) | Java | 0 | No description |
 | [Company-specific-questions](https://github.com/Samruddhi192105/Company-specific-questions) | — | 0 | No description |
-| [GitLite](https://github.com/Samruddhi192105/GitLite) | Java | 0 | No description |
 | [ExpenseTracker](https://github.com/Samruddhi192105/ExpenseTracker) | HTML | 0 | No description |
