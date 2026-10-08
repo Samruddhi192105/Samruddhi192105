@@ -134,9 +134,9 @@
 <!-- ALL_REPOS_START -->
 | Repository | Language | Stars | Description |
 |---|---|---:|---|
+| [Samruddhi192105](https://github.com/Samruddhi192105/Samruddhi192105) | Python | 0 | No description |
 | [GitLite](https://github.com/Samruddhi192105/GitLite) | TypeScript | 0 | GitLite is a Java version-control engine with a Next.js application for user accounts, isolated repositories, file brows |
 | [Portfolio](https://github.com/Samruddhi192105/Portfolio) | TypeScript | 0 | No description |
-| [Samruddhi192105](https://github.com/Samruddhi192105/Samruddhi192105) | Python | 0 | No description |
 | [ai-sql-generator](https://github.com/Samruddhi192105/ai-sql-generator) | Java | 0 | An AI-powered web application that converts natural-language requests into SQL queries using Java Spring Boot, Next.js,  |
 | [ai-agent-swarm](https://github.com/Samruddhi192105/ai-agent-swarm) | Java | 0 | Multi-agent AI system that autonomously plans, codes, tests, and reviews software |
 | [neetcode-submissions](https://github.com/Samruddhi192105/neetcode-submissions) | Java | 0 | My NeetCode.io problem submissions |
