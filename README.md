@@ -134,11 +134,11 @@
 <!-- ALL_REPOS_START -->
 | Repository | Language | Stars | Description |
 |---|---|---:|---|
+| [Samruddhi192105](https://github.com/Samruddhi192105/Samruddhi192105) | Python | 0 | No description |
 | [Portfolio](https://github.com/Samruddhi192105/Portfolio) | TypeScript | 0 | No description |
 | [ai-agent-swarm](https://github.com/Samruddhi192105/ai-agent-swarm) | Java | 0 | Multi-agent AI system that autonomously plans, codes, tests, and reviews software |
 | [ai-sql-generator](https://github.com/Samruddhi192105/ai-sql-generator) | Java | 0 | An AI-powered web application that converts natural-language requests into SQL queries using Java Spring Boot, Next.js,  |
 | [Veylora](https://github.com/Samruddhi192105/Veylora) | TypeScript | 0 | Veylora is an AI-powered escape room game that combines an interactive 3D environment, puzzle-solving mechanics, a count |
-| [Samruddhi192105](https://github.com/Samruddhi192105/Samruddhi192105) | Python | 0 | No description |
 | [GitLite](https://github.com/Samruddhi192105/GitLite) | TypeScript | 0 | GitLite is a Java version-control engine with a Next.js application for user accounts, isolated repositories, file brows |
 | [neetcode-submissions](https://github.com/Samruddhi192105/neetcode-submissions) | Java | 0 | My NeetCode.io problem submissions |
 | [densepose-human-body-surface-mapper](https://github.com/Samruddhi192105/densepose-human-body-surface-mapper) | Python | 0 | A computer vision application that uses DensePose to map the visible human body surface into detailed body-part regions  |
