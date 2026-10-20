@@ -1,5 +1,6 @@
 | Repository | Language | Stars | Description |
 |---|---|---:|---|
+| [multimodal-rag](https://github.com/Samruddhi192105/multimodal-rag) | Python | 0 | A multimodal Retrieval-Augmented Generation system for retrieving and answering questions from PDF text and images. |
 | [Samruddhi192105](https://github.com/Samruddhi192105/Samruddhi192105) | Python | 0 | No description |
 | [Portfolio](https://github.com/Samruddhi192105/Portfolio) | TypeScript | 0 | No description |
 | [ai-agent-swarm](https://github.com/Samruddhi192105/ai-agent-swarm) | Java | 0 | Multi-agent AI system that autonomously plans, codes, tests, and reviews software |
@@ -11,7 +12,6 @@
 | [GymTracker](https://github.com/Samruddhi192105/GymTracker) | JavaScript | 0 | No description |
 | [NurseManagementSystem](https://github.com/Samruddhi192105/NurseManagementSystem) | JavaScript | 0 | A full-stack web application designed to streamline nurse staffing and workforce management by connecting hospitals, sta |
 | [AR-Face-Filter](https://github.com/Samruddhi192105/AR-Face-Filter) | Python | 0 | A real-time Augmented Reality Face Filter built using Python, OpenCV, and MediaPipe Face Landmarker.  The application us |
-| [multimodal-rag](https://github.com/Samruddhi192105/multimodal-rag) | Python | 0 | A multimodal Retrieval-Augmented Generation system for retrieving and answering questions from PDF text and images. |
 | [Backend-Module](https://github.com/Samruddhi192105/Backend-Module) | JavaScript | 0 | No description |
 | [SecureDoc](https://github.com/Samruddhi192105/SecureDoc) | JavaScript | 0 | Secure Doc is a web-based application designed to securely manage, store, and handle documents with a focus on data safe |
 | [employee-management-Spring-Boot-](https://github.com/Samruddhi192105/employee-management-Spring-Boot-) | Java | 0 | No description |
